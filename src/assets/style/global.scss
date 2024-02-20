@@ -1,0 +1,28 @@
+html,
+body {
+  width: 100% !important;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  color: $textColor;
+
+  font-family: -apple-system, BlinkMacSystemFont, pingfang sc, microsoft yahei, arial regular;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1em;
+  overflow: auto
+}
